@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import ozchicstore.api.entities.User;
 
 @Service
-public class UserService implements IService<User, Long>{
+public class UserService implements IService<User, Long> {
     @Override
     public ResponseEntity<Object> insert(User model) {
         return null;
